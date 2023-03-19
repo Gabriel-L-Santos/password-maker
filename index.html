@@ -11,7 +11,20 @@
 </head>
 <body>
 
-    <h1>TESTANDO</h1>
+    <img class="logo" src="./assets/img/logo.png" alt="Password Maker logo" />
+
+    <main class="container-input">
+        <span>Tamanho <span id="valor"></span> caracteres</span>
+        <input id="slider" class="slider" type="range" min="5" max="25" value="15"/>
+
+        <button id="button" class="button-cta">Gerar Senha</button>
+    </main>
+
+    <div id="container-password" class="container-password hide">
+        <span class="title">Sua senha gerada foi:</span>
+        <span id="password" class="password">21431231231</span>
+        <span>Clique na senha para copiar. ☝️</span>
+    </div>
 
     <script src="assets/js/script.js"></script>
 </body>
