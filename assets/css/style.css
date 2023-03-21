@@ -8,7 +8,8 @@
 }
 
 body{
-    background-color: #18181B;
+    background: #000000 url("background.gif") no-repeat fixed;
+    background-size: cover;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -30,16 +31,6 @@ body{
 .container-input span{
     color: #FFF;
     font-size: 22px;
-}
-
-.slider{
-    -webkit-appearance: none;
-    width: 100%;
-    border-radius: 5px;
-    background: #DFDFDF;
-    height: 18px;
-    outline: none;
-    margin-top: 8px;
 }
 
 .button-cta{
@@ -110,3 +101,96 @@ body{
     bottom: 50px;
     opacity: 1;
 }
+
+/* personalização do slider */
+
+.slider {
+    height: 34px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+    background: transparent;
+  }
+  .slider:focus {
+    outline: none;
+  }
+  .slider::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 12px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 1px #002200;
+    background: #205928;
+    border-radius: 1px;
+    border: 1px solid #18D501;
+  }
+  .slider::-webkit-slider-thumb {
+    box-shadow: 3px 3px 3px #00AA00;
+    border: 2px solid #83E584;
+    height: 23px;
+    width: 23px;
+    border-radius: 23px;
+    background: #439643;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+  }
+  .slider:focus::-webkit-slider-runnable-track {
+    background: #205928;
+  }
+  .slider::-moz-range-track {
+    width: 100%;
+    height: 12px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 1px #002200;
+    background: #205928;
+    border-radius: 1px;
+    border: 1px solid #18D501;
+  }
+  .slider::-moz-range-thumb {
+    box-shadow: 3px 3px 3px #00AA00;
+    border: 2px solid #83E584;
+    height: 23px;
+    width: 23px;
+    border-radius: 23px;
+    background: #439643;
+    cursor: pointer;
+  }
+  .slider::-ms-track {
+    width: 100%;
+    height: 12px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  .slider::-ms-fill-lower {
+    background: #205928;
+    border: 1px solid #18D501;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px #002200;
+  }
+  .slider::-ms-fill-upper {
+    background: #205928;
+    border: 1px solid #18D501;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px #002200;
+  }
+  .slider::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 3px 3px 3px #00AA00;
+    border: 2px solid #83E584;
+    height: 23px;
+    width: 23px;
+    border-radius: 23px;
+    background: #439643;
+    cursor: pointer;
+  }
+  .slider:focus::-ms-fill-lower {
+    background: #205928;
+  }
+  .slider:focus::-ms-fill-upper {
+    background: #205928;
+  }
