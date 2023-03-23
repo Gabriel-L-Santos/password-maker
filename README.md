@@ -19,6 +19,7 @@ Este é Password Maker, um projeto de gerador de senhas usando HTML, CSS e Javas
 ## Recursos Usados
 
 - [Font Awesome](https://fontawesome.com/) - (biblioteca de ícones usada para este projeto)
+- [CSS Portal](https://www.cssportal.com/style-input-range/) - (gerador de estilização em CSS usado para a tag html input range)
 
 ## Autor do Projeto
 
