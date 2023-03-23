@@ -1,3 +1,4 @@
+// variáveis do gerador de senha
 
 let sliderElement = document.querySelector("#slider");
 let buttonELement = document.querySelector("#button");
@@ -10,11 +11,15 @@ let containerPassword = document.querySelector("#container-password");
 let charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%&*?';
 let novaSenha = '';
 
+// define o tamanho da senha baseado na quantidade de caracteres escolhida no slider
+
 sizePassword.innerHTML = sliderElement.value;
 
 slider.oninput = function(){
     sizePassword.innerHTML = this.value;
 }
+
+// função que gera a senha aleatória e mostra-o na página
 
 function generatePassword(){
 
@@ -29,6 +34,8 @@ function generatePassword(){
     novaSenha = pass;
 
 }
+
+// função para copiar a senha com o clique do mouse
 
 function copyPassword(){
     navigator.clipboard.writeText(novaSenha);    
