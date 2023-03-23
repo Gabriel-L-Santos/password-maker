@@ -9,7 +9,7 @@
 
 ![Showcase da Password Maker - gif](./assets/img-gif-readme/password-maker-showcase.gif)
 
-Este é Password Maker, um projeto de um gerador de senha usando HTML, CSS e Javascript. Escolha no slider quantos caracteres (de 5 a 25) você quer para sua senha, e clique em "Gerar Senha", e assim que gerada a senha, clique na senha para copiar. Os ícones abaixo do meu nome levam para os meus perfis no Linkedin e GitHub.
+Este é Password Maker, um projeto de gerador de senhas usando HTML, CSS e Javascript. Escolha no slider quantos caracteres (de 5 a 25) você quer para sua senha, e clique em "Gerar Senha", e assim que gerada a senha, clique na senha para copiar. Os ícones abaixo do meu nome levam para os meus perfis no Linkedin e GitHub.
 
 ## Tabela de Conteúdos
 
